@@ -1,0 +1,81 @@
+div.form{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    text-align: left;
+}
+form{
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+input{
+    display: table-row;
+}
+p{
+    display: table-row;
+}
+label{
+    display: table-row;
+}
+h1{
+    margin: auto;
+    text-align: center ;
+    color:rgb(13, 13, 226);
+    font-size: 60px;
+}
+
+#sUB{
+    margin: auto;
+    text-align: center;
+    color: aqua;
+    font-size: 60px;
+}
+
+.lista1{
+    text-align: left;
+    margin: 20px 10px 0px 5px;
+    padding: 10px 15px;
+    border: 10px solid ;
+    border-color: rgb(221, 51, 45);
+    color: rgb(0, 0, 0);
+    border-radius: 105px;
+    
+
+}
+
+span{
+    font-size: medium;
+    color: red;
+}
+
+body{
+    background-image: url('https://media.istockphoto.com/id/1162467384/vector/seamless-pattern-with-chamomile-flowers-on-blue-background.jpg?s=170667a&w=0&k=20&c=VUm_5ak_1Iu-CzbKpno19dkMkRmj-CBGUt_cT4FF-0s=');
+    background-attachment: fixed;
+}
+div{
+    columns: auto;
+    text-align: center;
+}
+
+@media (min-width: 576px) and (max-width:1024px){
+
+}
+
+text{
+    clear: right;
+    display: block;
+    text-align: center;
+}
+
+span.img{
+    float: left;
+    margin-right: 15px;
+}
+
+nav.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
